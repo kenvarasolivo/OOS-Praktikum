@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="ui.MainPageController">
+    <top>
+        <MenuBar>
+            <Menu text="File">
+                <MenuItem text="New Account" onAction="#onCreateAccount"/>
+                <MenuItem text="Exit" onAction="#onExit"/>
+            </Menu>
+        </MenuBar>
+    </top>
+    <center>
+        <ListView fx:id="accountListView" prefHeight="400" prefWidth="300"/>
+    </center>
+</BorderPane>

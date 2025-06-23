@@ -1,0 +1,22 @@
+[
+  {
+    "CLASSNAME": "Bank.Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.2,
+      "outgoingInterest": 0.5,
+      "date": "16.12.2024",
+      "amount": -200.0,
+      "description": "food"
+    }
+  },
+  {
+    "CLASSNAME": "Bank.Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.2,
+      "outgoingInterest": 0.5,
+      "date": "16.12.2024",
+      "amount": 300.0,
+      "description": "sperrkonto"
+    }
+  }
+]

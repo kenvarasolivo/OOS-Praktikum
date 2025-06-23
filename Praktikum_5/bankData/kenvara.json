@@ -1,0 +1,52 @@
+[
+  {
+    "CLASSNAME": "Bank.Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.2,
+      "outgoingInterest": 0.5,
+      "date": "16.12.2024",
+      "amount": 900.0,
+      "description": "Gehalt"
+    }
+  },
+  {
+    "CLASSNAME": "Bank.Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.2,
+      "outgoingInterest": 0.5,
+      "date": "16.12.2024",
+      "amount": -200.0,
+      "description": "Miete"
+    }
+  },
+  {
+    "CLASSNAME": "Bank.OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "kenvara",
+      "recipient": "timothy",
+      "date": "16.12.2024",
+      "amount": 20.0,
+      "description": "mensa"
+    }
+  },
+  {
+    "CLASSNAME": "Bank.IncomingTransfer",
+    "INSTANCE": {
+      "sender": "timothy ",
+      "recipient": "kenvara",
+      "date": "16.12.2024",
+      "amount": 60.0,
+      "description": "malabar"
+    }
+  },
+  {
+    "CLASSNAME": "Bank.OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "kenvara",
+      "recipient": "bob",
+      "date": "16.12.2024",
+      "amount": 10.0,
+      "description": "send"
+    }
+  }
+]
